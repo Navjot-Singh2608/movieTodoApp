@@ -1,0 +1,9 @@
+<div style="height: 100%">
+  <section class="display-movie" *ngIf="movie$ | async as movie">
+    <mat-card style="height: 300px; width: 300px">
+      <h1>{{ movie.name }}</h1>
+      <h2>{{ movie.releaseDate | date }}</h2>
+      <h3>${{ movie.earning }} million</h3>
+    </mat-card>
+  </section>
+</div>

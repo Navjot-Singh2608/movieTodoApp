@@ -1,0 +1,22 @@
+.movies-container {
+  display: flex !important;
+  gap: 20px;
+}
+.movie-card {
+  padding: 10px;
+}
+.movie-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-size: 20px;
+  padding: 10px;
+}
+.movie-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
